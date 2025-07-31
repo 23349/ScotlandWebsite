@@ -1,0 +1,38 @@
+*{
+    font-family: 'Franklin Gothic Medium';
+}
+
+.main-image{
+    background-image: url("./images/Scotland.webp");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 392px;
+}
+
+img{
+    width: 100%;
+}
+
+.text{
+    color: rgb(255, 255, 255);
+    font-size: 50px;
+    text-align: center;
+    position: absolute;
+    font-weight: 50px;
+    margin-top: 215px;
+    width: 100%;
+}
+
+.three-coloumn{
+    display: grid;
+    grid-template-columns: 2fr 5fr;
+    gap: 40px;
+    width: 90%;
+    margin: auto;
+    margin-top: 33px;
+}
+
+.font{
+    font-size: 1.25em;
+}
